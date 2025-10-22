@@ -1,4 +1,4 @@
-.nav-list{
+.nav-list {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -10,22 +10,22 @@
     text-decoration: none;
 }
 
-.nav-link{
+.nav-link {
     color: #4a5565;
     padding: 0.5em 1em;
 }
 
-.nav-link--logo{
+.nav-link--logo {
     font-size: 1.5em;
     font-weight: bold;
     color: #282f3d;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #282f3d;
 }
 
-#main-nav{
+#main-nav {
     display: flex;
     padding: 1em 20em;
     height: 2em;
@@ -36,19 +36,19 @@
 }
 
 @media (max-width: 768px) {
-    #main-nav{
+    #main-nav {
         padding: 1em 2em;
     }
-    .nav-link--logo{
+    .nav-link--logo {
         font-size: 1.5em;
     }
 }
 
 @media (max-width: 480px) {
-    #main-nav{
+    #main-nav {
         padding: 1em 0.5em;
     }
-    .nav-link--logo{
+    .nav-link--logo {
         font-size: 1.2em;
     }
     .nav-list{
