@@ -48,7 +48,10 @@
         </section>
     </main>
     <footer class="footer">
-        <p class="footer__text">© 2023 Thibault Scorielle. Tous droits réservés.</p>
+        <p class="footer__text">© <span id="year"></span> Thibault Scorielle. Tous droits réservés.</p>
     </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
