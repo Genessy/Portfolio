@@ -88,3 +88,14 @@
 .accueil__scroll-image {
     width: 24px;
 }
+
+@media (max-width: 768px) {
+    .accueil__title {
+        font-size: 3rem;
+    }
+
+    .accueil__subtitle {
+        font-size: 1.2rem;
+        padding: 0 1rem;
+    }
+}
