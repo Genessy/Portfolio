@@ -66,8 +66,8 @@
     align-items: center;
     list-style: none;
     padding: 4px 12px;
-    background-color: #ebebeb;
-    border-radius: 3.40282e38px;
+    background-color: #f3f4f6;
+    border-radius: 200px;
 }
 
 @media (max-width: 768px) {
