@@ -1,0 +1,79 @@
+.contact {
+    background-color: #101828;
+    padding: 80px;
+    text-align: center;
+}
+
+.contact__title {
+    color: #ffffff;
+    font-size: 3em;
+    margin-bottom: 24px;
+}
+
+.contact__subtitle {
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-bottom: 48px;
+}
+
+.contact__button-email {
+    display: inline-block;
+    align-items: center;
+    background-color: white;
+    padding: 8px 14px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 48px;
+}
+
+.contact__button-icon{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.contact__buttons-social {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.contact__button-github,
+.contact__button-linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1e2939;
+}
+
+.contact__button-github img,
+.contact__button-linkedin img {
+    width: 1.4em;
+    height: 1.4em;
+
+}
+
+.contact__button-github:hover,
+.contact__button-linkedin:hover {
+    background-color: #364153;
+}
+
+@media (max-width: 768px) {
+    .contact {
+        padding: 40px;
+    }
+
+    .contact__title {
+        font-size: 2em;
+    }
+
+    .contact__subtitle {
+        font-size: 1em;
+    }
+    
+}
