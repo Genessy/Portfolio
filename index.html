@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +11,12 @@
     <link rel="stylesheet" href="styles/components/footer.css">
     <link rel="stylesheet" href="styles/components/contact.css">
     <link rel="stylesheet" href="styles/components/competence.css">
+    <link rel="stylesheet" href="styles/components/projet.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
+
 <body>
     <header>
         <nav id="main-nav">
@@ -34,11 +37,13 @@
             </ul>
         </nav>
     </header>
-        <main>
+    <main>
         <section id="accueil" class="accueil">
             <h2 class="accueil__badge">Développeur Frontend</h2>
-            <h1 class="accueil__title">Bonjour, je suis <span class="accueil__title--highlight">Thibault Scorielle</span></h1>
-            <h3 class="accueil__subtitle">Prêt à donner vie à votre vision ? Je traduis vos idées en solutions intuitives et performantes.</h3>
+            <h1 class="accueil__title">Bonjour, je suis <span class="accueil__title--highlight">Thibault
+                    Scorielle</span></h1>
+            <h3 class="accueil__subtitle">Prêt à donner vie à votre vision ? Je traduis vos idées en solutions
+                intuitives et performantes.</h3>
             <div class="accueil__buttons">
                 <a class="accueil__button-projets" href="#projets">Découvrir mes projets</a>
                 <a class="accueil__button-contact" href="#contact">Me contacter</a>
@@ -49,9 +54,43 @@
             </a>
         </section>
     </main>
+    <section id="projets" class="projets">
+        <h2 class="projets__title">Mes Projets</h2>
+        <p class="projets__subtitle">Découvrez une sélection de mes réalisations récentes, des applications web aux
+            solutions mobiles.</p>
+        <div class="projets__grid">
+            <div class="projets__card">
+                <img class="projets__card-image" src="pictures/projets/auchan.png"
+                    alt="Image du projet Application Auchan International">
+                <div class="projets__card-content">
+                    <h3 class="projets__card-title">Application Auchan International</h3>
+                    <p class="projets__card-subtitle">L'application officielle d'Auchan pour le marché international.
+                    </p>
+                    <ul class="projets__card-technologies">
+                        <li class="projets__card-technology">Kotlin</li>
+                        <li class="projets__card-technology">Jetpack Compose</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="projets__card">
+                <img class="projets__card-image" src="pictures/projets/arosaje.jpg"
+                    alt="Image du projet Application Arosaje">
+                <div class="projets__card-content">
+                    <h3 class="projets__card-title">Application Arosaje</h3>
+                    <p class="projets__card-subtitle">Une application qui permet de mettre en relation les utilisateurs pour des services de jardinage.
+                    </p>
+                    <ul class="projets__card-technologies">
+                        <li class="projets__card-technology">Kotlin</li>
+                        <li class="projets__card-technology">Jetpack Compose</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="competences" class="competences">
         <h2 class="competences__title">Compétences</h2>
-        <p class="competences__subtitle">Des technologies modernes pour créer des solutions performantes et évolutives.</p>
+        <p class="competences__subtitle">Des technologies modernes pour créer des solutions performantes et évolutives.
+        </p>
         <div class="competences__grid">
             <div class="competences__card">
                 <img class="competences__card-image" src="pictures/frontend.svg" alt="Compétence Web">
@@ -85,16 +124,21 @@
     </section>
     <section id="contact" class="contact">
         <h2 class="contact__title">Travaillons ensemble</h2>
-        <p class="contact__subtitle">Vous avez un projet en tête ? Je serais ravi d'échanger avec vous et de donner vie à vos idées.</p>
+        <p class="contact__subtitle">Vous avez un projet en tête ? Je serais ravi d'échanger avec vous et de donner vie
+            à vos idées.</p>
         <a class="contact__button-email" href='mailto:thibault.scorielle@gmail.com'>
             <img class="contact__button-icon" src="pictures/mail.svg" alt="Icône email">
             thibault.scorielle@gmail.com
         </a>
         <div class="contact__buttons-social">
-            <a class="contact__button-github" target="_blank" rel="noopener noreferrer" href="https://github.com/Genessy"><img src="pictures/github.svg" alt="Bouton pour aller le profil Github de Thibault Scorielle"></a>
-            <a class="contact__button-linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/thibault-scorielle-199aba148/"><img src="pictures/linkedin.svg" alt="Bouton pour aller le profil LinkedIn de Thibault Scorielle"></a>
+            <a class="contact__button-github" target="_blank" rel="noopener noreferrer"
+                href="https://github.com/Genessy"><img src="pictures/github.svg"
+                    alt="Bouton pour aller le profil Github de Thibault Scorielle"></a>
+            <a class="contact__button-linkedin" target="_blank" rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/thibault-scorielle-199aba148/"><img src="pictures/linkedin.svg"
+                    alt="Bouton pour aller le profil LinkedIn de Thibault Scorielle"></a>
         </div>
-        </section>
+    </section>
     <footer class="footer">
         <p class="footer__text">© <span id="year"></span> Thibault Scorielle. Tous droits réservés.</p>
     </footer>
@@ -102,4 +146,5 @@
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
 </body>
+
 </html>
