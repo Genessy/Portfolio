@@ -73,7 +73,7 @@
     background-color: #f3f4f6;
     border-radius: 200px;
     border: 1px solid #e2e8f0;
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
 @media (max-width: 768px) {
