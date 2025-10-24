@@ -1,37 +1,37 @@
-.projets {
+.skill {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
+    background-color: #f9fafb;
     padding: 80px 0;
 }
 
-.projets__title {
+.skill-title {
     font-size: 3em;
     color: black;
     margin-bottom: 16px;
 }
 
-.projets__subtitle {
+.skill-subtitle {
     font-size: 1.2em;
     color: #4a5565;
     margin-bottom: 64px;
 }
 
-.projets__grid {
+.skill-grid {
     display: flex;
     flex-direction: row;
-    gap: 4rem;
+    gap: 2em;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
-.projets__card {
+.skill-card {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    min-height: 420px;
-    width: 460px;
+    align-items: center;
+    min-height: 220px;
+    width: 224px;
+    padding: 24px;
     border: 1px solid #e2e8f0;
     border-radius: 10px;
     background-color: #ffffff;
@@ -39,67 +39,49 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.projets__card:hover {
+.skill-card:hover {
     transform: translateY(-1px);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.projets__card-image {
-    width: 100%;
-    height: 228px;
-    object-fit: cover;
-    border-radius: 10px 10px 0 0;
-}
-
-.projets__card-content {
-    padding: 24px;
+.skill-card-picture {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    gap: 16px;
-    flex: 1;
+    width: 30px;
+    height: 30px;
+    background-color: #101828;
+    border-radius: 50%;
+    padding: 1em;
 }
 
-.projets__card-title {
-    font-size: 1.5em;
-    color: black;
-}
-
-.projets__card-subtitle {
-    font-size: 1em;
-    color: #4a5565;
-}
-
-.projets__card-technologies {
+.skill-card-technologies {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 0.5em;
 }
 
-.projets__card-technology {
+.skill-card-technology {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
     padding: 4px 12px;
     background-color: #f3f4f6;
-    border: 1px solid #e2e8f0;
     border-radius: 200px;
-    font-size: 0.75em;
+    border: 1px solid #e2e8f0;
 }
 
 @media (max-width: 768px) {
-    .projets__grid {
+    .skill-grid {
         flex-direction: column;
         align-items: center;
     }
 
-    .projets__title {
+    .skill-title {
         font-size: 2em;
     }
 
-    .projets__subtitle {
+    .skill-subtitle {
         font-size: 1em;
     }
 }
