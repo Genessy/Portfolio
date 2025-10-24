@@ -1,4 +1,4 @@
-.accueil {
+.hero {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     background-color: #f8f9fa;
 }
 
-.accueil__badge {
+.hero-badge {
     font-size: 1.1rem;
     font-weight: normal;
     background-color: #101828;
@@ -16,18 +16,18 @@
     padding: 8px 14px;
 }
 
-.accueil__title {
+.hero-title {
     font-size: 4.3rem;
     font-weight: normal;
     text-align: center;
     margin-top: 0.3em;
 }
 
-.accueil__title--highlight {
+.hero-title-highlight {
     color: #4F46E5;
 }
 
-.accueil__subtitle {
+.hero-subtitle {
     color: #4a5565;
     font-size: 1.5rem;
     font-weight: normal;
@@ -37,41 +37,41 @@
     max-width: 600px;
 }
 
-.accueil__buttons {
+.hero-buttons {
     display: flex;
     gap: 1rem;
     margin-bottom: 3em;
 }
 
-.accueil__button-projets, .accueil__button-contact {
+.hero-button-project, .hero-button-contact {
     font-size: 1rem;
     font-weight: normal;
     border-radius: 10px;
     padding: 8px 14px;
 }
 
-.accueil__button-projets {
+.hero-button-project {
     background-color: #101828;
     color: #FFFFFF;
     text-decoration: none;
 }
 
-.accueil__button-projets:hover {
+.hero-button-project:hover {
     background-color: #4F46E5;
 }
 
-.accueil__button-contact:hover {
+.hero-button-contact:hover {
     background-color: #e9ebef;
 }
 
-.accueil__button-contact {
+.hero-button-contact {
     background-color: #FFFFFF;
     border: #101828 1px solid;
     color: #4F46E5;
     text-decoration: none;
 }
 
-.accueil__scroll {
+.hero-scroll {
     margin-top: 80px;
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@
     text-decoration: none;
 }
 
-.accueil__scroll-link {
+.hero-scroll-link {
     font-size: 0.9rem;
     color: #101828;
 }
@@ -94,17 +94,17 @@
     }
 }
 
-.accueil__scroll-image {
+.hero-scroll-picture {
     animation: slide-down 1.5s infinite;
     width: 24px;
 }
 
 @media (max-width: 768px) {
-    .accueil__title {
+    .hero-title {
         font-size: 3rem;
     }
 
-    .accueil__subtitle {
+    .hero-subtitle {
         font-size: 1.2rem;
         padding: 0 1rem;
     }

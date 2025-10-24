@@ -1,4 +1,4 @@
-.nav-list {
+.navbar-list {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -6,26 +6,26 @@
     gap: 1em;
 }
 
-.nav-link, .nav-link--logo {
+.navbar-link, .navbar-logo {
     text-decoration: none;
 }
 
-.nav-link {
+.navbar-link {
     color: #4a5565;
     padding: 0.5em 1em;
 }
 
-.nav-link--logo {
+.navbar-logo {
     font-size: 1.5em;
     font-weight: bold;
     color: #282f3d;
 }
 
-.nav-link:hover {
+.navbar-link:hover {
     color: #282f3d;
 }
 
-#main-nav {
+.navbar {
     display: flex;
     padding: 1em 20em;
     height: 2em;
@@ -36,22 +36,22 @@
 }
 
 @media (max-width: 768px) {
-    #main-nav {
+    .navbar {
         padding: 1em 2em;
     }
-    .nav-link--logo {
+    .navbar-logo {
         font-size: 1.5em;
     }
 }
 
 @media (max-width: 480px) {
-    #main-nav {
+    .navbar {
         padding: 1em 0.5em;
     }
-    .nav-link--logo {
+    .navbar-logo {
         font-size: 1.2em;
     }
-    .nav-list{
+    .navbar-list{
         gap: 0.5em;
     }
 }

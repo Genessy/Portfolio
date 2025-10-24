@@ -7,11 +7,11 @@
     <title>Portfolio - Thibault Scorielle</title>
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/components/navbar.css">
-    <link rel="stylesheet" href="styles/components/accueil.css">
+    <link rel="stylesheet" href="styles/components/hero.css">
     <link rel="stylesheet" href="styles/components/footer.css">
     <link rel="stylesheet" href="styles/components/contact.css">
-    <link rel="stylesheet" href="styles/components/competence.css">
-    <link rel="stylesheet" href="styles/components/projet.css">
+    <link rel="stylesheet" href="styles/components/skill.css">
+    <link rel="stylesheet" href="styles/components/project.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,128 +19,128 @@
 
 <body>
     <header>
-        <nav id="main-nav">
-            <a class="nav-link--logo" href="index.html">Portfolio</a>
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a class="nav-link" href="#accueil">Accueil</a>
+        <nav class="navbar">
+            <a class="navbar-logo" href="index.html">Portfolio</a>
+            <ul class="navbar-list">
+                <li >
+                    <a class="navbar-link" href="#hero">Accueil</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projets">Projets</a>
+                <li >
+                    <a class="navbar-link" href="#project">Projets</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#competences">Compétences</a>
+                <li >
+                    <a class="navbar-link" href="#skill">Compétences</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                <li >
+                    <a class="navbar-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="accueil" class="accueil">
-            <h2 class="accueil__badge">Développeur Frontend</h2>
-            <h1 class="accueil__title">Bonjour, je suis <span class="accueil__title--highlight">Thibault
+        <section id="hero" class="hero">
+            <h2 class="hero-badge">Développeur Frontend</h2>
+            <h1 class="hero-title">Bonjour, je suis <span class="hero-title-highlight">Thibault
                     Scorielle</span></h1>
-            <h3 class="accueil__subtitle">Prêt à donner vie à votre vision ? Je traduis vos idées en solutions
+            <h3 class="hero-subtitle">Prêt à donner vie à votre vision ? Je traduis vos idées en solutions
                 intuitives et performantes.</h3>
-            <div class="accueil__buttons">
-                <a class="accueil__button-projets" href="#projets">Découvrir mes projets</a>
-                <a class="accueil__button-contact" href="#contact">Me contacter</a>
+            <div class="hero-buttons">
+                <a class="hero-button-project" href="#project">Découvrir mes projets</a>
+                <a class="hero-button-contact" href="#contact">Me contacter</a>
             </div>
-            <a class="accueil__scroll" href="#projets">
-                <span class="accueil__scroll-link">Défiler</span>
-                <img class="accueil__scroll-image" src="pictures/down-arrow.svg" alt="Flèche vers le bas">
+            <a class="hero-scroll" href="#project">
+                <span class="hero-scroll-link">Défiler</span>
+                <img class="hero-scroll-picture" src="pictures/down-arrow.svg" alt="Flèche vers le bas">
             </a>
         </section>
     </main>
-    <section id="projets" class="projets">
-        <h2 class="projets__title">Mes Projets</h2>
-        <p class="projets__subtitle">Découvrez une sélection de mes réalisations récentes, des applications web aux
+    <section id="project" class="project">
+        <h2 class="project-title">Mes projets</h2>
+        <p class="project-subtitle">Découvrez une sélection de mes réalisations récentes, des applications web aux
             solutions mobiles.</p>
-        <div class="projets__grid">
-            <div class="projets__card">
-                <img class="projets__card-image" src="pictures/projets/auchan.png"
+        <div class="project-grid">
+            <div class="project-card">
+                <img class="project-card-picture" src="pictures/project/auchan.png"
                     alt="Image du projet Application Auchan International">
-                <div class="projets__card-content">
-                    <h3 class="projets__card-title">Application Auchan International</h3>
-                    <p class="projets__card-subtitle">L'application officielle d'Auchan pour le marché international.
+                <div class="project-card-content">
+                    <h3 class="project-card-title">Application Auchan International</h3>
+                    <p class="project-card-subtitle">L'application officielle d'Auchan pour le marché international.
                     </p>
-                    <ul class="projets__card-technologies">
-                        <li class="projets__card-technology">Kotlin</li>
-                        <li class="projets__card-technology">Jetpack Compose</li>
+                    <ul class="project-card-technologies">
+                        <li class="project-card-technology">Kotlin</li>
+                        <li class="project-card-technology">Jetpack Compose</li>
                     </ul>
                 </div>
             </div>
-            <div class="projets__card">
-                <img class="projets__card-image" src="pictures/projets/arosaje.jpg"
+            <div class="project-card">
+                <img class="project-card-picture" src="pictures/project/arosaje.jpg"
                     alt="Image du projet Application Arosaje">
-                <div class="projets__card-content">
-                    <h3 class="projets__card-title">Application Arosaje</h3>
-                    <p class="projets__card-subtitle">Une application qui permet de mettre en relation les utilisateurs pour des services de jardinage.
+                <div class="project-card-content">
+                    <h3 class="project-card-title">Application Arosaje</h3>
+                    <p class="project-card-subtitle">Une application qui permet de mettre en relation les utilisateurs pour des services de jardinage.
                     </p>
-                    <ul class="projets__card-technologies">
-                        <li class="projets__card-technology">Kotlin</li>
-                        <li class="projets__card-technology">Jetpack Compose</li>
+                    <ul class="project-card-technologies">
+                        <li class="project-card-technology">Kotlin</li>
+                        <li class="project-card-technology">Jetpack Compose</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <section id="competences" class="competences">
-        <h2 class="competences__title">Compétences</h2>
-        <p class="competences__subtitle">Des technologies modernes pour créer des solutions performantes et évolutives.
+    <section id="skill" class="skill">
+        <h2 class="skill-title">Compétences</h2>
+        <p class="skill-subtitle">Des technologies modernes pour créer des solutions performantes et évolutives.
         </p>
-        <div class="competences__grid">
-            <div class="competences__card">
-                <img class="competences__card-image" src="pictures/frontend.svg" alt="Compétence Web">
-                <h3 class="competences__card-title">Web</h3>
-                <ul class="competences__card-technologies">
-                    <li class="competences__card-technology">HTML</li>
-                    <li class="competences__card-technology">CSS</li>
-                    <li class="competences__card-technology">React</li>
-                    <li class="competences__card-technology">Vue.js</li>
+        <div class="skill-grid">
+            <div class="skill-card">
+                <img class="skill-card-picture" src="pictures/frontend.svg" alt="Compétence Web">
+                <h3 class="skill-card-title">Web</h3>
+                <ul class="skill-card-technologies">
+                    <li class="skill-card-technology">HTML</li>
+                    <li class="skill-card-technology">CSS</li>
+                    <li class="skill-card-technology">React</li>
+                    <li class="skill-card-technology">Vue.js</li>
                 </ul>
             </div>
-            <div class="competences__card">
-                <img class="competences__card-image" src="pictures/mobile.svg" alt="Compétence Mobile">
-                <h3 class="competences__card-title">Mobile</h3>
-                <ul class="competences__card-technologies">
-                    <li class="competences__card-technology">Kotlin</li>
-                    <li class="competences__card-technology">Swift</li>
-                    <li class="competences__card-technology">Flutter</li>
+            <div class="skill-card">
+                <img class="skill-card-picture" src="pictures/mobile.svg" alt="Compétence Mobile">
+                <h3 class="skill-card-title">Mobile</h3>
+                <ul class="skill-card-technologies">
+                    <li class="skill-card-technology">Kotlin</li>
+                    <li class="skill-card-technology">Swift</li>
+                    <li class="skill-card-technology">Flutter</li>
                 </ul>
             </div>
-            <div class="competences__card">
-                <img class="competences__card-image" src="pictures/tools.svg" alt="Outils">
-                <h3 class="competences__card-title">Outils</h3>
-                <ul class="competences__card-technologies">
-                    <li class="competences__card-technology">Git</li>
-                    <li class="competences__card-technology">Docker</li>
-                    <li class="competences__card-technology">Figma</li>
+            <div class="skill-card">
+                <img class="skill-card-picture" src="pictures/tools.svg" alt="Outils">
+                <h3 class="skill-card-title">Outils</h3>
+                <ul class="skill-card-technologies">
+                    <li class="skill-card-technology">Git</li>
+                    <li class="skill-card-technology">Docker</li>
+                    <li class="skill-card-technology">Figma</li>
                 </ul>
             </div>
         </div>
     </section>
     <section id="contact" class="contact">
-        <h2 class="contact__title">Travaillons ensemble</h2>
-        <p class="contact__subtitle">Vous avez un projet en tête ? Je serais ravi d'échanger avec vous et de donner vie
+        <h2 class="contact-title">Travaillons ensemble</h2>
+        <p class="contact-subtitle">Vous avez un projet en tête ? Je serais ravi d'échanger avec vous et de donner vie
             à vos idées.</p>
-        <a class="contact__button-email" href='mailto:thibault.scorielle@gmail.com'>
-            <img class="contact__button-icon" src="pictures/mail.svg" alt="Icône email">
+        <a class="contact-button-email" href='mailto:thibault.scorielle@gmail.com'>
+            <img class="contact-button-icon" src="pictures/mail.svg" alt="Icône email">
             thibault.scorielle@gmail.com
         </a>
-        <div class="contact__buttons-social">
-            <a class="contact__button-github" target="_blank" rel="noopener noreferrer"
+        <div class="contact-button-container">
+            <a class="contact-button-github" target="_blank" rel="noopener noreferrer"
                 href="https://github.com/Genessy"><img src="pictures/github.svg"
                     alt="Bouton pour aller le profil Github de Thibault Scorielle"></a>
-            <a class="contact__button-linkedin" target="_blank" rel="noopener noreferrer"
+            <a class="contact-button-linkedin" target="_blank" rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/thibault-scorielle-199aba148/"><img src="pictures/linkedin.svg"
                     alt="Bouton pour aller le profil LinkedIn de Thibault Scorielle"></a>
         </div>
     </section>
     <footer class="footer">
-        <p class="footer__text">© <span id="year"></span> Thibault Scorielle. Tous droits réservés.</p>
+        <p class="footer-text">© <span id="year"></span> Thibault Scorielle. Tous droits réservés.</p>
     </footer>
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
