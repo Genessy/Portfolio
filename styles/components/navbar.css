@@ -1,3 +1,17 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    padding: 2em 20em;
+    height: 2em;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fefefe;
+    border-bottom: #e8eaed 1px solid;
+    position: fixed;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
 .navbar-list {
     list-style: none;
     margin: 0;
@@ -23,16 +37,6 @@
 
 .navbar-link:hover {
     color: #282f3d;
-}
-
-.navbar {
-    display: flex;
-    padding: 1em 20em;
-    height: 2em;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fefefe;
-    border-bottom: #e8eaed 1px solid;
 }
 
 @media (max-width: 768px) {
