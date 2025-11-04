@@ -4,14 +4,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f8f9fa;
+    background-color: var(--color-bg-light);
 }
 
 .hero-badge {
     font-size: 1.1rem;
     font-weight: normal;
-    background-color: #101828;
-    color: #FFFFFF;
+    background-color: var(--color-dark);
+    color: var(--color-white);
     border-radius: 200px;
     padding: 8px 14px;
 }
@@ -24,11 +24,11 @@
 }
 
 .hero-title-highlight {
-    color: #4F46E5;
+    color: var(--color-primary);
 }
 
 .hero-subtitle {
-    color: #4a5565;
+    color: var(--color-text-secondary);
     font-size: 1.5rem;
     font-weight: normal;
     text-align: center;
@@ -51,23 +51,23 @@
 }
 
 .hero-button-project {
-    background-color: #101828;
-    color: #FFFFFF;
+    background-color: var(--color-dark);
+    color: var(--color-white);
     text-decoration: none;
 }
 
 .hero-button-project:hover {
-    background-color: #4F46E5;
+    background-color: var(--color-primary);
 }
 
 .hero-button-contact:hover {
-    background-color: #e9ebef;
+    background-color: var(--color-bg-lighter);
 }
 
 .hero-button-contact {
-    background-color: #FFFFFF;
-    border: #101828 1px solid;
-    color: #4F46E5;
+    background-color: var(--color-white);
+    border: var(--color-dark) 1px solid;
+    color: var(--color-primary);
     text-decoration: none;
 }
 
@@ -82,7 +82,7 @@
 
 .hero-scroll-link {
     font-size: 0.9rem;
-    color: #101828;
+    color: var(--color-dark);
 }
 
 @keyframes slide-down {

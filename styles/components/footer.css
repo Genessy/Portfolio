@@ -5,6 +5,6 @@
 }
 
 .footer-text {
-    color: #99a1af;
+    color: var(--color-text-light);
     font-size: 14px;
 }
