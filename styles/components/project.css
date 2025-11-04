@@ -8,13 +8,13 @@
 
 .project-title {
     font-size: 3em;
-    color: black;
+    color: var(--color-text-primary);
     margin-bottom: 16px;
 }
 
 .project-subtitle {
     font-size: 1.2em;
-    color: #4a5565;
+    color: var(--color-text-secondary);
     margin-bottom: 64px;
 }
 
@@ -32,9 +32,9 @@
     align-items: stretch;
     min-height: 420px;
     width: 460px;
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--color-border-neutral);
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: var(--color-white);
     gap: 16px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -63,12 +63,12 @@
 
 .project-card-title {
     font-size: 1.5em;
-    color: black;
+    color: var(--color-text-primary);
 }
 
 .project-card-subtitle {
     font-size: 1em;
-    color: #4a5565;
+    color: var(--color-text-secondary);
 }
 
 .project-card-technologies {
@@ -83,8 +83,8 @@
     align-items: center;
     list-style: none;
     padding: 4px 12px;
-    background-color: #f3f4f6;
-    border: 1px solid #e2e8f0;
+    background-color: var(--color-bg-lighter);
+    border: 1px solid var(--color-border-neutral);
     border-radius: 200px;
     font-size: 0.75em;
 }

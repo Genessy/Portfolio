@@ -1,10 +1,10 @@
 .footer {
-    background-color: #030712;
+    background-color: var(--color-dark);
     padding: 20px;
     text-align: center;
 }
 
 .footer-text {
-    color: #99a1af;
+    color: var(--color-text-light);
     font-size: 14px;
 }

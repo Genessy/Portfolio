@@ -1,17 +1,17 @@
 .contact {
-    background-color: #101828;
+    background-color: var(--color-dark);
     padding: 80px;
     text-align: center;
 }
 
 .contact-title {
-    color: #ffffff;
+    color: var(--color-white);
     font-size: 3em;
     margin-bottom: 24px;
 }
 
 .contact-subtitle {
-    color: #ffffff;
+    color: var(--color-white);
     font-size: 1.2em;
     margin-bottom: 48px;
 }
@@ -19,11 +19,11 @@
 .contact-button-email {
     display: inline-block;
     align-items: center;
-    background-color: white;
+    background-color: var(--color-white);
     padding: 8px 14px;
     border-radius: 10px;
     text-decoration: none;
-    color: black;
+    color: var(--color-text-primary);
     margin-bottom: 48px;
 }
 
@@ -48,7 +48,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #1e2939;
+    background-color: var(--color-dark-secondary);
 }
 
 .contact-button-github img,
@@ -60,7 +60,7 @@
 
 .contact-button-github:hover,
 .contact-button-linkedin:hover {
-    background-color: #364153;
+    background-color: var(--color-dark-hover);
 }
 
 @media (max-width: 768px) {
